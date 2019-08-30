@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/button"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:gravity="center"
+        android:textColor="@color/white"
+        tools:text="Login" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/animatedImageView"
+        android:layout_width="@dimen/animated_image_size"
+        android:layout_height="@dimen/animated_image_size"
+        android:layout_gravity="end|center"
+        android:layout_marginEnd="@dimen/activity_vertical_margin"
+        android:visibility="gone"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="@dimen/progress_size"
+        android:layout_height="@dimen/progress_size"
+        android:layout_gravity="end|center"
+        android:layout_marginEnd="@dimen/activity_vertical_margin"
+        android:visibility="gone" />
+
+</FrameLayout>

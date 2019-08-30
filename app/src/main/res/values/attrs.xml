@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="LoginButton">
+        <attr name="default_text" format="string" />
+        <attr name="success_text" format="string" />
+        <attr name="success_delay" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="MBackground">
+        <attr name="background_type" format="string">
+            <enum name="background" value="0"/>
+            <enum name="border" value="1"/>
+        </attr>
+        <attr name="shape" format="enum">
+            <enum name="rectangle" value="0"/>
+            <enum name="oval" value="1"/>
+            <enum name="ring" value="2"/>
+        </attr>
+        <attr name="gradient_orientation" format="enum">
+            <enum name="bottomLeft_to_topRight" value="0"/>
+            <enum name="bottom_to_top" value="1"/>
+            <enum name="bottomRight_to_topLeft" value="2"/>
+            <enum name="left_to_right" value="3"/>
+            <enum name="right_to_left" value="4"/>
+            <enum name="topLeft_to_bottomRight" value="5"/>
+            <enum name="top_to_bottom" value="6"/>
+            <enum name="topRight_to_bottomLeft" value="7"/>
+        </attr>
+        <attr name="gradient_end_color" format="color"/>
+        <attr name="border_width" format="dimension"/>
+        <attr name="border_color" format="color"/>
+        <attr name="pressed_color" format="color"/>
+        <attr name="background_color" format="color"/>
+        <attr name="radius" format="dimension"/>
+        <attr name="radius_top_left" format="dimension"/>
+        <attr name="radius_top_right" format="dimension"/>
+        <attr name="radius_bottom_right" format="dimension"/>
+        <attr name="radius_bottom_left" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="MFrameLayout">
+        <attr name="gradient_end_color"/>
+        <attr name="gradient_orientation"/>
+        <attr name="background_type"/>
+        <attr name="shape"/>
+        <attr name="border_width"/>
+        <attr name="border_color"/>
+        <attr name="pressed_color"/>
+        <attr name="pressed_color_compat"/>
+        <attr name="background_color"/>
+        <attr name="radius"/>
+        <attr name="radius_top_left"/>
+        <attr name="radius_top_right"/>
+        <attr name="radius_bottom_right"/>
+        <attr name="radius_bottom_left"/>
+    </declare-styleable>
+</resources>

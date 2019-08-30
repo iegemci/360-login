@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Login VUZ</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Login</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid email</string>
+    <string name="invalid_password">Password does not match the criteria (must be at least 8 characters long, contain lower case, uppercase, numeric and special characters)</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="base_url">https://testapi.io/api/iegemci/</string>
+    <string name="logout">Logout</string>
+    <string name="user_name_placeholder">Welcome %s %s</string>
+    <string name="path_check">M6,11 l3.5,4 l8,-7</string>
+    <string name="path_cross">M6,6 l10,10 M16,6 l-10,10</string>
+    <string name="login_success">Login Success!</string>
+    <string name="login_title">Login</string>
+    <string name="home_title">Home</string>
+</resources>
